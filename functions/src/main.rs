@@ -19,5 +19,8 @@ fn mul(a: i32, b: i32) -> i32 {
 fn do_math(a: i32, b: i32) {
     let result: (i32, i32, i32) = (add(a, b), sub(a, b), mul(a, b));
 
-    println!("(add, sub, mul) : {:?}", result);
+    let (sum, diff, product) = result;
+
+    println!("Calculate: {a} and {b}");
+    println!("sum: {sum} | diff {diff} | product {product}");
 }
