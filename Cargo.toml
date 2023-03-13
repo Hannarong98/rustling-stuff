@@ -1,2 +1,8 @@
 [workspace]
-members = ["./hello-world", "./cargo", "./guessing_game", "./mut_and_vars"]
+members = [
+    "./hello-world",
+    "./cargo",
+    "./guessing_game",
+    "./mut_and_vars",
+    "./functions",
+]
