@@ -22,5 +22,5 @@ fn do_math(a: i32, b: i32) {
     let (sum, diff, product) = result;
 
     println!("Calculate: {a} and {b}");
-    println!("sum: {sum} | diff {diff} | product {product}");
+    println!("add: {sum} | sub: {diff} | mul: {product}");
 }
