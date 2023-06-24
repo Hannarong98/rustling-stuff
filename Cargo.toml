@@ -3,6 +3,9 @@ members = [
     "./hello-world",
     "./cargo",
     "./guessing_game",
+    "./struct_and_tuples",
     "./mut_and_vars",
     "./functions",
+    "./borrow_and_ref",
+    "./enums",
 ]
