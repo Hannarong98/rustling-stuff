@@ -34,7 +34,7 @@ fn car_quality(miles: u32) -> (Age, u32) {
 }
 
 fn car_factory(color: String, motor: Transmission, roof: bool, miles: u32) -> Car {
-    if (car_quality(miles)).0 == Age::Used {
+    if (car_quality(miles)).0 == Age::Used && roof {
         if roof {
             println!(
                 "Preparing a used car: {:?}, {}, Hard top, {} miles",
