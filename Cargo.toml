@@ -9,4 +9,5 @@ members = [
     "./borrow_and_ref",
     "./enums",
     "./loops",
+    "./error_handling",
 ]
